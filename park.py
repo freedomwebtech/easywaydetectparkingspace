@@ -32,6 +32,6 @@ while True:
 #    time.sleep(0.1)
     if cv2.waitKey(1)&0xFF==27:
         break
-cap.realese()
+cap.release()
 cv2.destroyAllWindows()
    
